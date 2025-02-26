@@ -1,0 +1,183 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3ede7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 60px; 
+}
+
+h2 {
+    color: #5a4d3c;
+}
+
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+
+.navbar {
+    background-color: #8d7b6e;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.navbar ul li a:hover {
+    background-color: #5a4d3c;
+}
+
+header {
+    background-color: #8d7b6e;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+section {
+    background: #fff;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+#education {
+    background: #f9f5f1;
+}
+
+.education-box {
+    background: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.education-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project {
+    width: 45%;
+    background-color: #fcf4ea;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.project h3 {
+    color: #5a4d3c;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8d7b6e;
+    color: white;
+    padding:15px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none
+
+}
+
+.btn:hover {
+    background-color: #5a4d3c;
+}
+
+
+#contact {
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #8d7b6e;
+    font-weight: bold;
+
+}
+
+.social-links a:hover {
+    color: #5a4d3c;
+}
+
+footer {
+    background-color: #8d7b6e;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .project {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .project {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
